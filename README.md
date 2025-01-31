@@ -83,7 +83,6 @@ Contributions are welcome!
 
 For any queries or collaborations, feel free to reach out!
 
-📧 Email: [Email](mailto:zeynepcol22@gmail.com)
 🌐 GitHub: [zeynepcol](https://github.com/zeynepcol)  
 👤 LinkedIn: [zeynep-col](https://linkedin.com/in/zeynep-col/)
 
