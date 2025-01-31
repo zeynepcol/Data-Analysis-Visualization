@@ -1,4 +1,6 @@
 <h1 align="center"> ⚽️ OLYMPICS: DATA ANALYSIS 🏅 </h1>
+<img src="https://github.com/user-attachments/assets/116694cc-0bfb-4234-8684-c80e19ebe13c" style="display:inline-block; margin-right:10px;">
+
 
 ## ✨ Overview
 
