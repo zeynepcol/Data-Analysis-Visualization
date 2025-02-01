@@ -93,14 +93,6 @@ if user_menu == 'Overall Analysis':
     ax = sns.heatmap(x.pivot_table(index='Sport', columns='Year', values='Event', aggfunc='count').fillna(0).astype('int'),annot=True)
     st.pyplot(fig)
 
-    # st.title("Most successful Athletes")
-    # sport_list = df['Sport'].unique().tolist()
-    # sport_list.sort()
-    # sport_list.insert(0,'Overall')
-    #
-    # selected_sport = st.selectbox('Select a Sport',sport_list)
-    # x = helper.most_successful(df,selected_sport)
-    # st.table(x)
 
 if user_menu == 'Country-wise Analysis':
 
@@ -122,9 +114,6 @@ if user_menu == 'Country-wise Analysis':
     ax = sns.heatmap(pt,annot=True)
     st.pyplot(fig)
 
-    # st.title("Top 10 athletes of " + selected_country)
-    # top10_df = helper.most_successful_countrywise(df,selected_country)
-    # st.table(top10_df)
 
 if user_menu == 'Athlete wise Analysis':
     athlete_df = df.drop_duplicates(subset=['Name', 'region'])
@@ -176,3 +165,4 @@ if user_menu == 'Athlete wise Analysis':
     fig = px.line(final, x="Year", y=["Male", "Female"])
     fig.update_layout(autosize=False, width=1000, height=600)
     st.plotly_chart(fig)
+    
