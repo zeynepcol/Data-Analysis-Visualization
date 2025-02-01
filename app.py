@@ -14,9 +14,6 @@ df = preprocessor.preprocess(df,region_df)
 
 st.sidebar.title("Olympics Analysis")
 
-#first logo code line
-#st.sidebar.image('https://e7.pngegg.com/pngimages/1020/402/png-clipart-2024-summer-olympics-brand-circle-area-olympic-rings-olympics-logo-text-sport.png')
-
 st.sidebar.image('https://logos-world.net/wp-content/uploads/2021/09/Olympics-Logo-700x394.png')
 user_menu = st.sidebar.radio(
     'Select an Option',
