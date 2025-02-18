@@ -76,7 +76,7 @@ This project provided hands-on experience in:
 
 ---
 
-## ✨ Contributing
+## 🤝 Contributing
 
 Contributions are welcome! 
 
